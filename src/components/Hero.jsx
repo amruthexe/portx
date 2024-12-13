@@ -31,24 +31,31 @@ const Hero = () => {
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] mt-5 mb-8 lg:mb-10">
             Full Stack Development for Scalable & Modern Web Solutions
           </h2>
-          <div className="flex items-center gap-3">
-            <a href={cv} download={"professional-cv"}>
-              <ButtonPrimary label="Download CV" icon="download" />
-            </a>
-            <a href="tel:+919392855968">
-              <button
-                className="py-2 px-4 bg-emerald-500 text-white rounded-lg shadow-lg hover:bg-emerald-600 transition-all"
-              >
-                Call Me
-              </button>
-            </a>
-            <ButtonOutline
-              href="#about"
-              label="Scroll down"
-              icon="arrow_downward"
-            />
-            
-          </div>
+          <div className="flex flex-col lg:flex-row items-center gap-4 mt-6">
+  <a href={cv} download={"professional-cv"} className="w-full lg:w-36">
+    <button
+      className="w-full py-3 bg-blue-500 text-white rounded-lg shadow-lg text-center hover:bg-blue-600 transition-all"
+    >
+      Download CV
+    </button>
+  </a>
+  <a href="tel:+919392855968" className="w-full lg:w-36">
+    <button
+      className="w-full py-3 bg-red-500 text-white rounded-lg shadow-lg text-center hover:bg-green-600 transition-all"
+    >
+      Call Me
+    </button>
+  </a>
+  <a href="#about" className="w-full lg:w-36">
+    <button
+      className="w-full py-3 bg-gray-800 text-white rounded-lg shadow-lg text-center hover:bg-gray-900 transition-all"
+    >
+      Scroll Down
+    </button>
+  </a>
+</div>
+
+
         </div>
 
         <div className="hidden lg:block">
