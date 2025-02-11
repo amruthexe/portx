@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import project1 from "../assets/pj1.jpg"
-import project2 from "../assets/ride.png";
+import project2 from "../assets/image1.png";
 
-import project5 from "../assets/shopr.png";
+import project5 from "../assets/image.png";
 
 // https://fullstack-youtube-like-webapp.vercel.app/
 
@@ -11,9 +11,9 @@ const Work = () => {
   const works = [
     {
       imgSrc: project5,
-      title: "Ecommerce Shopr App",
-      tags: ["nextjs", "tailwind", "sanity", "clerk"],
-      projectLink: "",
+      title: "Discussion Forum",
+      tags: ["gemini ai","nextjs", "tailwind", "mongoDb", "clerk"],
+      projectLink: "https://bec-forum.vercel.app/",
       badge: "Upcoming",
     },
     {
@@ -25,9 +25,9 @@ const Work = () => {
     },
     {
       imgSrc: project2,
-      title: "RideRentals",
-      tags: ["react", "tailwind", "mongodb", "express"],
-      projectLink: "https://ride-rentals.vercel.app/",
+      title: "Edutech Startup",
+      tags: ["nextjs", "tailwind","getform"],
+      projectLink: "https://www.quriouzmankey.com/",
       badge: "Pro",
     }
   ];
